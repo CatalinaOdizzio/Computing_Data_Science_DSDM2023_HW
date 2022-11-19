@@ -3,6 +3,7 @@
 
 # In[ ]:
 
+from sklearn.metrics import roc_auc_score
 
 def get_roc_auc_score(trained: tuple):
 
