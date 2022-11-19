@@ -1,2 +1,2 @@
 ## Computing_for_Data_Science_HW5
-# PANADEROS: CATALINA ODIZZIO, AGOSTINA PISSINIS, SANTIAGO MANOTAS-ARROYAVE
+ Authors: Catalina Odizzio, Agostina Pissinis, Santiago Manotas-Arroyave
