@@ -1,36 +1,33 @@
-
-
+import os
+import sys
+import setuptools
 from setuptools import setup, find_packages
-#######
-# Only needed if the version is imported from the library
-# import os
-# import sys
 
-# base_dir = os.path.dirname(__file__)
-# src_dir = os.path.join(base_dir, 'src')
-# sys.path.insert(0, src_dir)
 
-# import library_example
-#######
+
+
+base_dir = os.path.dirname(__file__)
+src_dir = os.path.join(base_dir, 'src')
+sys.path.insert(0, src_dir)
+
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
 
 def get_requirements(requirements_path='requirements.txt'):
     with open(requirements_path) as fp:
         return [x.strip() for x in fp.read().split('\n') if not x.startswith('#')]
 
-# for the version you can either put here a string with the version number
-# or you can create a variable called __version__ inside the __init__.py from
-# the src/your_library folder that has a string with the version as a string.
-setup(
-    name='',
-    version='',
-    description='',
-    author='',
+
+setuptools.setup(
+    name='luis quinones, tobias pfeiffer, giovanna chaves',
+    version='0.1',
+    description='CDS_HW5',
+    author='Luis Quiñones',
     packages=find_packages(where='src', exclude=['tests']),
     package_dir={'': 'src'},
-    install_requires=get_requirements(),
+    install_requires=get_requirements('requirements.txt'),
     setup_requires=['pytest-runner', 'wheel'],
-    url='',
     classifiers=[
-        'Programming Language :: Python :: 3.7.10'
+        'Programming Language :: Python :: 3.9.13'
     ]
 )
