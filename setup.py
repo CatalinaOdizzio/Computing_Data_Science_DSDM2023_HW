@@ -12,7 +12,7 @@ def get_requirements(requirements_path='requirements.txt'):
 
 setup(
     name='Cruasan',
-    version='0.0.1',
+    version='0.1',
     description='Library for CDS HW5',
     license = 'MIT',
     author='Catalina Odizzio, Agostina Pissinis, Santiago Manotas-Arroyave',
@@ -22,6 +22,6 @@ setup(
     setup_requires=['pytest-runner', 'wheel'],
     url='',
     classifiers=[
-        'Programming Language :: Python :: 3.9.12'
+        'Programming Language :: Python :: 3.9.13'
     ]
 )
