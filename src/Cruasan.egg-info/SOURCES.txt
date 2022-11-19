@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/Cruasan/__init__.py
+src/Cruasan.egg-info/PKG-INFO
+src/Cruasan.egg-info/SOURCES.txt
+src/Cruasan.egg-info/dependency_links.txt
+src/Cruasan.egg-info/requires.txt
+src/Cruasan.egg-info/top_level.txt
+src/Cruasan/functions/Features.py
+src/Cruasan/functions/Score.py
+src/Cruasan/functions/__init__.py
+src/Cruasan/functions/data_cleanup.py
+src/Cruasan/functions/load_data.py
+src/Cruasan/functions/split_data.py
+src/Cruasan/functions/train_model.py
