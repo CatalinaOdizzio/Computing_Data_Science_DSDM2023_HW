@@ -12,5 +12,5 @@ def gen_dummy(df: pd.DataFrame, cols: list):
 
 def gen_bin(df: pd.DataFrame, cols: list):
     binary_df = pd.get_dummies(df, columns=cols)
-    return dummies_df
+    return binary_df
 
